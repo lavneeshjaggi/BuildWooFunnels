@@ -1,0 +1,50 @@
+.card {
+  backface-visibility: hidden;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 57vh;
+  margin: 10px;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  width: 18vw;
+  z-index: 1;
+
+  .image {
+    border-bottom: 1px solid #eeeeee;
+    height: 50%;
+  }
+
+  .information {
+    background-color: #ffffffff;
+    height: 45%;
+
+    .info {
+      font-size: 1vh;
+      margin-left: 1vw;
+      text-align: left;
+    }
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    justify-content: space-around;
+    font-size: 1vh;
+    margin: 12px;
+
+    .icon:hover {
+      color: orange;
+    }
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

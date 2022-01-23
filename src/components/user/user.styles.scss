@@ -1,0 +1,19 @@
+.user {
+    color: #000000;
+    
+    .image {
+        height: 33vh;
+        width: 60vw;
+    }
+
+    .information {
+        background-color: #eeeeee;
+        font-size: 1.8vh;
+        padding-bottom: 0.6vh;
+    
+        .info {
+          margin-left: 42vw;
+          text-align: left;
+        }
+    }
+}
