@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BuildWooFunnels/static/css/main.18039131.css",
+    "main.js": "/BuildWooFunnels/static/js/main.09e0936b.js",
+    "index.html": "/BuildWooFunnels/index.html",
+    "main.18039131.css.map": "/BuildWooFunnels/static/css/main.18039131.css.map",
+    "main.09e0936b.js.map": "/BuildWooFunnels/static/js/main.09e0936b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18039131.css",
+    "static/js/main.09e0936b.js"
+  ]
+}
